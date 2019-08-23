@@ -1,2 +1,2 @@
-
+def yielding(collection)
 
