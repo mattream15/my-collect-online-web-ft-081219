@@ -1,9 +1,9 @@
-def yielding(array)
+def my_collect(collection)
 i = 0
-collection = []
-while i < array.length
-collection << yield(array[i])
+block = []
+while i < collection.length
+block << yield(collection[i])
 i += 1
 end
-collection
+block
 end
