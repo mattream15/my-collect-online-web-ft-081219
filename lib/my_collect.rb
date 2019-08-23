@@ -1,4 +1,4 @@
 def yielding(array)
 i = 0
 collection = []
-while i < collection.length
+while i < array.length
